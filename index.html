@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta definatiom="good web site in the world ">
+    <meta definatiom="this is school web registration web site ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bonga university</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#admissions">Admissions</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#college">college</a></li>
+            <li><a href="#registor">registor</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h2 class="section-title">bonga university</h2>
+        <div class="gallery">
+            <!-- Add your school images here -->
+            <img src="thml image/black-person-standing-out-crowd.jpg ">
+            <img src="thml image/isolated.jpg">
+            <img src="thml image/wawq.jpg ">
+        </div>
+    </section>
+    <section id="gallery">
+        <h1 class="section-title">bonga university</h1>
+        <div class="gallery">
+            <!-- Add your school images here -->
+            <ul>do you know what is good </ul>
+            <ul>you the ability do any thing in the wold  </ul>
+            <ul>know you can practice programming</ul>
+        </div>
+    </section>
+
+    
+
+    <section id="news">
+        <h2 class="section-title">News & Events</h2>
+        <div class="news-container">
+            <div class="news-card">
+                <h3>celebration and enjoinig day</h3>
+                <p>Date: October 15, 2023</p>
+                <p>Join us for our annual sports day celebration!</p>
+            </div>
+            <!-- Add more news cards -->
+        </div>
+    </section>
+
+    <section id="faculty">
+        <h2 class="section-title">Our Faculty</h2>
+        <div class="faculty">
+            <div class="profile-card">
+                <img src="thml image/a80AAYtyVQjJ5DYBsTQyUMyyA.jpg ">
+                <h3>John Smith</h3>
+                <p>Mathematics</p>
+            </div>
+            <!-- Add more faculty profiles -->
+        </div>
+    </section>
+
+    <section id="admissions">
+        <h2 class="section-title">Admissions</h2>
+        <div class="form-container">
+            <form id="admissionForm">
+                <input type="text" placeholder="Student Name" required>
+                <input type="text" placeholder="Parent Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="tel" placeholder="Phone" required>
+                <button type="submit">Submit Application</button>
+            </form>
+        </div>
+    </section>
+
+    <div>
+        <section id="college">
+             <div class="course">
+            <h2 class="choose your course">choose your course</h2>
+            <select name="health" id="1">health</select>
+            <ul>
+            <option >bio</option>
+            <option>phy</option>
+            <option>chemistry</option>
+        </ul>
+
+            </div>
+        </section>
+    </div>
+
+    <section id="registor">
+        <h2 class="section-title">registor</h2>
+        <div class="form-container">
+            <form id="registorForm">
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>university Registration</title>
+                    <style>
+                        * {
+                            box-sizing: border-box;
+                            margin: 0;
+                            padding: 0;
+                        }
+                
+                        body {
+                            font-family: Arial, sans-serif;
+                            background-color: #f0f2f5;
+                            padding: 20px;
+                        }
+                
+                        .container {
+                            max-width: 800px;
+                            margin: 0 auto;
+                            background-color: white;
+                            padding: 30px;
+                            border-radius: 10px;
+                            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+                        }
+                
+                        h1 {
+                            text-align: center;
+                            color: #1a73e8;
+                            margin-bottom: 30px;
+                        }
+                
+                        .form-group {
+                            margin-bottom: 20px;
+                        }
+                
+                        label {
+                            display: block;
+                            margin-bottom: 5px;
+                            font-weight: bold;
+                            color: #333;
+                        }
+                
+                        input, select, textarea {
+                            width: 100%;
+                            padding: 10px;
+                            border: 1px solid #ddd;
+                            border-radius: 5px;
+                            font-size: 16px;
+                        }
+                
+                        .row {
+                            display: grid;
+                            grid-template-columns: 1fr 1fr;
+                            gap: 20px;
+                        }
+                
+                        .checkbox-group {
+                            display: flex;
+                            gap: 15px;
+                            flex-wrap: wrap;
+                        }
+                
+                        .checkbox-item {
+                            display: flex;
+                            align-items: center;
+                            gap: 5px;
+                        }
+                
+                        button {
+                            background-color: #1a73e8;
+                            color: white;
+                            padding: 12px 24px;
+                            border: none;
+                            border-radius: 5px;
+                            cursor: pointer;
+                            font-size: 16px;
+                            width: 100%;
+                            transition: background-color 0.3s;
+                        }
+                
+                        button:hover {
+                            background-color: #1557b0;
+                        }
+                
+                        .error {
+                            color: red;
+                            font-size: 14px;
+                            margin-top: 5px;
+                            display: none;
+                        }
+                
+                        .success-message {
+                            text-align: center;
+                            color: green;
+                            font-weight: bold;
+                            display: none;
+                            margin-top: 20px;
+                        }
+                
+                        @media (max-width: 600px) {
+                            .row {
+                                grid-template-columns: 1fr;
+                            }
+                        }
+                    </style>
+                </head>
+                <body>
+                    <div class="container">
+                        <h1>School Registration Form</h1>
+                        <form id="registrationForm">
+                            <div class="row">
+                                <div class="form-group">
+                                    <label for="firstName">First Name *</label>
+                                    <input type="text" id="firstName" required>
+                                    <div class="error" id="firstNameError">Please enter first name</div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="lastName">Last Name *</label>
+                                    <input type="text" id="lastName" required>
+                                    <div class="error" id="lastNameError">Please enter last name</div>
+                                </div>
+                            </div>
+                
+                            <div class="row">
+                                <div class="form-group">
+                                    <label for="dob">Date of Birth *</label>
+                                    <input type="date" id="dob" required>
+                                    <div class="error" id="dobError">Please select date of birth</div>
+                                </div>
+                                <div class="form-group">
+                                    <label>Gender *</label>
+                                    <div class="checkbox-group">
+                                        <label class="checkbox-item">
+                                            <input type="radio" name="gender" value="male" required> Male
+                                        </label>
+                                        <label class="checkbox-item">
+                                            <input type="radio" name="gender" value="female"> Female
+                                        </label>
+                                    </div>
+                                    <div class="error" id="genderError">Please select gender</div>
+                                </div>
+                            </div>
+                
+                            <div class="form-group">
+                                <label for="email">Parent/Guardian Email *</label>
+                                <input type="email" id="email" required>
+                                <div class="error" id="emailError">Please enter a valid email address</div>
+                            </div>
+                
+                            <div class="form-group">
+                                <label for="phone">Parent/Guardian Phone *</label>
+                                <input type="tel" id="phone" pattern="[0-9]{10}" required>
+                                <div class="error" id="phoneError">Please enter a valid 10-digit phone number</div>
+                            </div>
+                
+                            <div class="form-group">
+                                <label for="address">Address *</label>
+                                <textarea id="address" rows="3" required></textarea>
+                                <div class="error" id="addressError">Please enter your address</div>
+                            </div>
+                
+                            <div class="collge">
+                                <label for="select college">select college*</label>
+                                <select id="college" required>
+                                    <option value="enginnerig">Select college</option>
+                                    <option>health</option>
+                                    <option>agrecalture</option>
+                                    <option>other</option>
+                                    <option>computution</option>
+                                    <option>pre enginnering</option>
+                                    <option>mastors lavel</option>
+                                </select>
+                                <div class="error" id="collegeError">Please select grade level</div>
+                            </div>
+                
+                            <div class="form-group">
+                                <label>Select Subjects *</label>
+                                <div class="checkbox-group">
+                                    <label class="checkbox-item">
+                                        <input type="checkbox" name="subjects" value="other"> other
+                                    </label>
+                                    <label class="checkbox-item">
+                                        <input type="checkbox" name="subjects" value="enginnerig"> enginnerig
+                                    </label>
+                                    <label class="checkbox-item">
+                                        <input type="checkbox" name="subjects" value="pre enginnerig">pre enginnerig
+                                    </label>
+                                    <label class="checkbox-item">
+                                        <input type="checkbox" name="subjects" value="health"> health
+                                    </label>
+                                </div>
+                                <div class="error" id="subjectsError">Please select at least one subject</div>
+                            </div>
+                
+                            <button type="submit">Register</button>
+                        </form>
+                        <div class="success-message" id="successMessage">
+                            Registration Successful! Thank you for registering.
+                        </div>
+                    </div>
+                
+                    <script>
+                        const form = document.getElementById('registrationForm');
+                        const errorElements = document.querySelectorAll('.error');
+                        const successMessage = document.getElementById('successMessage');
+                
+                        form.addEventListener('submit', (e) => {
+                            e.preventDefault();
+                            let isValid = true;
+                
+                            // Reset errors
+                            errorElements.forEach(error => error.style.display = 'none');
+                
+                            // Validate first name
+                            const firstName = document.getElementById('firstName');
+                            if (!firstName.value.trim()) {
+                                showError('firstNameError', 'Please enter first name');
+                                isValid = false;
+                            }
+                
+                            // Validate last name
+                            const lastName = document.getElementById('lastName');
+                            if (!lastName.value.trim()) {
+                                showError('lastNameError', 'Please enter last name');
+                                isValid = false;
+                            }
+                
+                            // Validate date of birth
+                            const dob = document.getElementById('dob');
+                            if (!dob.value) {
+                                showError('dobError', 'Please select date of birth');
+                                isValid = false;
+                            }
+                
+                            // Validate gender
+                            const gender = document.querySelector('input[name="gender"]:checked');
+                            if (!gender) {
+                                showError('genderError', 'Please select gender');
+                                isValid = false;
+                            }
+                
+                            // Validate email
+                            const email = document.getElementById('email');
+                            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                            if (!emailRegex.test(email.value)) {
+                                showError('emailError', 'Please enter a valid email address');
+                                isValid = false;
+                            }
+                
+                            // Validate phone
+                            const phone = document.getElementById('phone');
+                            const phoneRegex = /^\d{10}$/;
+                            if (!phoneRegex.test(phone.value)) {
+                                showError('phoneError', 'Please enter a valid 10-digit phone number');
+                                isValid = false;
+                            }
+                
+                            // Validate address
+                            const address = document.getElementById('address');
+                            if (!address.value.trim()) {
+                                showError('addressError', 'Please enter your address');
+                                isValid = false;
+                            }
+                
+                            // Validate grade
+                            const grade = document.getElementById('grade');
+                            if (grade.value === '') {
+                                showError('gradeError', 'Please select grade level');
+                                isValid = false;
+                            }
+                
+                            // Validate subjects
+                            const subjects = document.querySelectorAll('input[name="subjects"]:checked');
+                            if (subjects.length === 0) {
+                                showError('subjectsError', 'Please select at least one subject');
+                                isValid = false;
+                            }
+                
+                            if (isValid) {
+                                form.style.display = 'none';
+                                successMessage.style.display = 'block';
+                                form.reset();
+                                setTimeout(() => {
+                                    form.style.display = 'block';
+                                    successMessage.style.display = 'none';
+                                }, 3000);
+                            }
+                        });
+                
+                        function showError(elementId, message) {
+                            const errorElement = document.getElementById(elementId);
+                            errorElement.textContent = message;
+                            errorElement.style.display = 'block';
+                        }
+                    </script>
+                </body>
+                </html>
+        </div>
+    </section>
+
+    <section id="calendar">
+        <h2 class="section-title">course schedule</h2>
+        <div class="calendar">
+            <!-- Calendar days would be generated with JavaScript -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="social-links">
+            <nav>
+                <div class="nav-left"> 
+                   <a href="https://m.facebook.com/story.php?story_fbid=5798016717708466&substory_index=634809822326658&id=1000903559144531&mibextid=Nif5oz"><img width="48" height="48" src="https://img.icons8.com/fluency/48/facebook.png"/>facebook</a></div>
+                    
+                       <div class="nav-right"> <a href="https://instagram.com"><img width="48" height="48" src="https://img.icons8.com/fluency/48/instagram-new.png" />instagram</a></div>
+                    
+                        <div class=""><a href="https://vm.tiktok.com/ZMk4gbN2w/"><img width="48" height="48" src="https://img.icons8.com/fluency/48/tiktok.png" />tiktok</a></div>
+                    
+                   <div><a href="https://youtu.be/4FceWmVyMnA?si=6T_8B6Svba8PgF8W"><img width="48" height="48" src="https://img.icons8.com/color/48/youtube-play.png" />youtube</a></div>
+                
+        </div>
+        
+        <div id="map" style="height: 400px; margin: 2rem 0;">
+            <!-- Add Google Maps embed code here -->
+        </div>
+      
+     
+
+        <div class="form-container">
+            <h3>Newsletter Subscription</h3>
+            <form id="newsletterForm">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+    
+
+    <footer>
+        <p>&copy; <span id="2025"></span> addisu mulugeta</p>
+    </footer>
+
+  <script>
+   // Current year for footer
+   document.getElementById('year').textContent = new Date().getFullYear();
+
+// Smooth scroll for navigation
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
+// Form submission handling
+document.getElementById('admissionForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    alert('Application submitted successfully!');
+    this.reset();
+});
+
+document.getElementById('newsletterForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    alert('Thanks for subscribing!');
+    this.reset();
+});
+
+// Basic calendar generation
+const calendar = document.querySelector('.calendar');
+const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+
+// Generate calendar headers
+days.forEach(day => {
+    const dayElement = document.createElement('div');
+    dayElement.textContent = day;
+    calendar.appendChild(dayElement);
+});
+
+// Generate calendar days (example)
+for (let i = 1; i <= 31; i++) {
+    const dayElement = document.createElement('div');
+    dayElement.textContent = i;
+    calendar.appendChild(dayElement);
+}
+
+  </script>   
+</body>
+</html>
